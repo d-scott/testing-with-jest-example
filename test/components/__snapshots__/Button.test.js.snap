@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`----Button---- should render a .button 1`] = `
+<button
+  className="button"
+  onClick={[Function]}
+>
+  
+</button>
+`;
+
+exports[`----Button---- should render a .button with a label 1`] = `
+<button
+  className="button"
+  onClick={[Function]}
+>
+  MyButton
+</button>
+`;
+
+exports[`----Button---- should render a disabled .button 1`] = `
+<button
+  className="button disabled"
+  onClick={[Function]}
+>
+  
+</button>
+`;
+
+exports[`----Button---- should render a hidden .button 1`] = `
+<button
+  className="button hidden"
+  onClick={[Function]}
+>
+  
+</button>
+`;
