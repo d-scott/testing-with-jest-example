@@ -1,4 +1,5 @@
 import MySubClass from '../src/MySubClass';
+import MyClass from '../src/MyClass';
 
 describe('MySubClass', () => {
 
@@ -9,6 +10,10 @@ describe('MySubClass', () => {
 
     afterAll(() => {
         instance = null;
+    });
+
+    it('should extend MyClass', () => {
+        expect(MySubClass.prototype instanceof MyClass).toEqual(true);
     });
 
     it('should default someProp to true', () => {
